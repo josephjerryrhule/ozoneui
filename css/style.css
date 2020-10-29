@@ -1,0 +1,217 @@
+/* Fonts from fonts.css file */
+@import url(./font.css);
+
+/* Css variables */
+@import url(./partials/variable.css);
+
+/* Css Global */
+@import url(./partials/_global.css);
+
+body {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background: #fff;
+    width: 100%;
+}
+#nav-item{
+    color: #f8f9fa;
+}
+
+#nav-item-active{
+    color: #f8f9fa;
+}
+
+#nav-item1{
+    color: var(--primary-color);
+}
+
+.navigation {
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    box-shadow: var(--box-shadow1);
+}
+
+.navbar-brand img {
+    margin-left: 150%;
+    width: 70px;
+}
+
+.nav-item .nav-link {
+    margin-right: 60px;
+    font-size: 20px;
+    padding: 3px 3px;
+    transition: all .5s;
+    
+}
+
+.nav-item1 .nav-link1 {
+    margin-right: 2px;
+    font-size: 19px;
+    padding: 3px 3px;
+    transition: all .5s;
+    
+}
+
+.nav-item2 .nav-link2 {
+    margin-right: 100px;
+    font-size: 19px;
+    padding: 3px 3px;
+    transition: all .5s;
+    
+}
+
+.nav-brand{
+    font-size: 20px;
+    margin-left: 6%;
+}
+
+#nav-item:hover,#nav-item-active:hover{
+    transform: scale(1,1);
+    color: var(--primary-color);
+}
+
+#nav-item1:hover,#nav-item-active1:hover{
+    transform: scale(1,1);
+    color: var(--primary-color);
+}
+.br{
+    border-right: 1px solid var(--primary-color);
+}
+#custom-bg {
+    width: 110%;
+    border: none;
+    background: transparent;
+}
+
+.custom-bg{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.header-content {
+    margin-top: 50px !important;
+    padding-bottom: 200px;
+}
+
+.text-title{
+    font-family: var(--Poppins-bold);
+    font-size: 59px;
+    font-weight: 400;
+}
+
+.header-btn{
+    border: 0px solid var(--primary-color3);
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+    transition: all .5s;
+    background: var(--primary-color3);
+    color: #f8f9fa;
+}
+
+.bus-btn{
+    margin-top: -4%;
+}
+
+.header-btn1{
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+    transition: all .5s;
+    color: #6f6f6f;
+    background: #fff;
+}
+
+.header-btn2{
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 15%;
+    transition: all .5s;
+    color: #6f6f6f;
+    background: #fff;
+}
+
+.header-btn1:hover{
+    transform: scale(1, 1);
+    background: #f8f9fa;
+    text-decoration: none;
+    color: #6f6f6f;
+    border: #f8f9fa;
+}
+
+.header-btn2:hover{
+    transform: scale(1, 1);
+    background: #f8f9fa;
+    text-decoration: none;
+    color: #6f6f6f;
+    border: #f8f9fa;
+}
+
+.header-btn:hover{
+    transform: scale(1, 1);
+    background: #f8f9fa;
+    text-decoration: none;
+    color: #6f6f6f;
+    border: #f8f9fa;
+}
+ .button{
+     margin-left: 35%;
+ }
+
+hr{
+    border: 1px solid #fff;
+    margin-left: 25%;
+    margin-top: -0.3%;
+    width: 50%;
+}
+
+.header-content p {
+    padding: 5px 30px 0 5px;
+}
+
+.main-menu{
+    background: var(--primary-color2);
+}
+
+.background {
+    background: url(../img/ozone-section-1.JPG) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: #fff;
+}
+
+.background1 {
+    background: url(../img/ozone-section-2.JPG) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: #fff;
+}
+.unlimited-data-sec{
+    padding: 120px 120px;
+    float: right;
+}
+.shop-sec{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.data-sec{
+    margin-top: 10%;
+}
+.data-para{
+    color: var(--primary-color2);
+}
+.para{
+    font-size: 30px;
+    font-weight: lighter;
+}
