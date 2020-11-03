@@ -1,0 +1,24 @@
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin-in {
+  border: 8px solid #fff;
+  border-radius: 53%;
+  background:#fff;
+  color: var(--primary-color);
+}
+.fa-facebook{
+color: #fff;
+}
+.fa-facebook:hover{
+color:var(--primary-color3)}
+.fa-linkedin-in:hover{
+    border: 8px solid var(--primary-color3);
+    background:var(--primary-color3);
+}
+.fa-instagram:hover{
+    border: 8px solid var(--primary-color3);
+    background:var(--primary-color3);}
+.fa-twitter:hover{
+    border: 8px solid var(--primary-color3);
+    background:var(--primary-color3);
+}
