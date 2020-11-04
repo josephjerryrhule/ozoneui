@@ -147,6 +147,16 @@ header {
     background: #fff;
 }
 
+.header-btn4 {
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 25%;
+    transition: all .5s;
+    color: #f8f9fa;
+    background: var(--primary-color3);
+}
+
 .header-btn5 {
     border: 0px solid var(--primary-color2);
     border-radius: 5px;
@@ -173,7 +183,8 @@ header {
     border: #f8f9fa;
 }
 
-.header-btn2:hover {
+.header-btn2:hover,
+.header-btn4:hover {
     transform: scale(1, 1);
     background: #f8f9fa;
     text-decoration: none;
