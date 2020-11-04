@@ -345,3 +345,15 @@ footer {
 .step-title{
     font-weight: 700;
 }
+section.services-area-service{
+    background: #E8E3E3;
+}
+.closing-area{
+    background: #E8E3E3;
+}
+.background3 {
+    background: url(../img/services-hero.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
