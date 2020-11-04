@@ -313,3 +313,36 @@ footer {
     font-size: 2.5em;
     padding: 0.3rem;
 }
+.about-para{
+    font-size: 20px;
+    margin-left: -2%;
+    margin-top: 10%;
+}
+
+.vision{
+    margin-top: 17%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: var(--primary-color2);
+    box-shadow: var(--box-shadow);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    color:#fff;
+}
+#vision{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.vision-para{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: #fff;
+    font-family: var(--poppins);
+}
+.header-content3 {
+    margin-top: 6% !important;
+    margin-left: 35%;
+    color: var(--primary-color3);
+}
