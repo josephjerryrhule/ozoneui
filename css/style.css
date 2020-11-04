@@ -314,9 +314,8 @@ footer {
     padding: 0.3rem;
 }
 .about-para{
-    font-size: 20px;
-    margin-left: -2%;
-    margin-top: 10%;
+    font-size: 30px;
+    color: #6f6f6f;
 }
 
 .vision{
@@ -342,7 +341,8 @@ footer {
     font-family: var(--poppins);
 }
 .header-content3 {
-    margin-top: 6% !important;
-    margin-left: 35%;
     color: var(--primary-color3);
+}
+.step-title{
+    font-weight: 700;
 }
