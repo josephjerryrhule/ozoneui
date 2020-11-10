@@ -297,6 +297,10 @@ hr {
     font-size: 30px;
     font-weight: lighter;
 }
+.para3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
 .icon{
     margin-left: 43%;
     background:var(--primary-color2);
