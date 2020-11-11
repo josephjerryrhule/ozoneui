@@ -157,6 +157,16 @@ header {
     background: var(--primary-color3);
 }
 
+.header-btn9 {
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 25%;
+    transition: all .5s;
+    color: #f8f9fa;
+    background: var(--primary-color2);
+}
+
 .header-btn5 {
     border: 0px solid var(--primary-color2);
     border-radius: 5px;
@@ -188,7 +198,17 @@ header {
     color: #f8f9fa;
 }
 
-.header-btn5:hover, .header-btn6:hover, .header-btn7:hover {
+.header-btn8 {
+    border: 0px solid var(--primary-color2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    transition: all .5s;
+    background: var(--primary-color2);
+    color: #f8f9fa;
+}
+
+.header-btn5:hover, .header-btn6:hover, .header-btn7:hover, .header-btn8:hover {
     transform: scale(1, 1);
     background: #f8f9fa;
     text-decoration: none;
@@ -205,7 +225,7 @@ header {
 }
 
 .header-btn2:hover,
-.header-btn4:hover {
+.header-btn4:hover, .header-btn9:hover {
     transform: scale(1, 1);
     background: #f8f9fa;
     text-decoration: none;
@@ -268,6 +288,15 @@ hr {
 
 .background1 {
     background: url(../img/ozone-section-2.JPG) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: #fff;
+}
+
+.background2 {
+    background: url(../img/services-image.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -386,7 +415,7 @@ footer {
     font-weight: 700;
 }
 section.services-area-service{
-    background: #E8E3E3;
+    background: var(--primary-color);
 }
 .closing-area{
     background: #E8E3E3;
@@ -464,5 +493,9 @@ section.services-area-service{
   .popup .content {
     max-height: 30%;
   }
-  
- 
+.personal-services{
+    margin-bottom: 50px;
+}
+.cards-border{
+    border: 1px solid var(--primary-color3);
+}
