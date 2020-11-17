@@ -134,6 +134,7 @@ header {
 }
 
 .bus-btn {
+    float: right;
     margin-top: -4%;
 }
 
@@ -270,6 +271,10 @@ header {
 
 .button {
     margin-left: 30%;
+}
+
+.res-button{
+    margin-left: 10%;
 }
 
 hr {
@@ -527,7 +532,7 @@ section.services-area-service{
 @media (max-width: 576px) {
 
     .res-header{
-        margin-left:0.2%;
+        margin-left:0%;
     }
     .navigation {
         border-bottom-left-radius: 1%;
@@ -590,19 +595,19 @@ section.services-area-service{
     
     .custom-bg {
         width: 80%;
-        margin-left: 10%;
+        margin-left: 1%;
     }
     
     .header-content {
-        margin-top: 50px !important;
+        margin-top: -2px !important;
         padding-bottom: 200px;
     }
     
     .text-title {
         font-family: var(--Poppins-bold);
-        font-size: 59px;
+        font-size: 30px;
         font-weight: 400;
-        width: 1024px;
+        width: 10%;
     }
     
     .text-title1 {
@@ -624,14 +629,17 @@ section.services-area-service{
         border: 0px solid var(--primary-color3);
         border-radius: 5px;
         padding: 10px;
-        width: 125%;
+        width: 50%;
+        margin-left: -75%;
         transition: all .5s;
         background: var(--primary-color3);
         color: #f8f9fa;
     }
     
     .bus-btn {
-        margin-top: -4%;
+        float: none;
+        margin-top: -9.2%;
+        margin-left: 50%;
     }
     
     .header-btn1 {
@@ -648,7 +656,8 @@ section.services-area-service{
         border: 0px solid #fff;
         border-radius: 5px;
         padding: 10px;
-        width: 15%;
+        width: 20%;
+        margin-left: -4%;
         transition: all .5s;
         color: var(--primary-color2);
         background: #fff;
@@ -678,7 +687,7 @@ section.services-area-service{
         border: 0px solid var(--primary-color2);
         border-radius: 5px;
         padding: 10px;
-        width: 50%;
+        width: 23%;
         transition: all .5s;
         background: var(--primary-color2);
         color: #f8f9fa;
@@ -784,6 +793,11 @@ section.services-area-service{
         background: var(--primary-color2);
     }
     
+    .more-sec{
+        width: 100%;
+    }
+
+
     .background {
         background: url(../img/ozone-section-1.JPG) no-repeat;
         background-position: center;
@@ -827,10 +841,12 @@ section.services-area-service{
     
     .data-para {
         color: var(--primary-color2);
+        width: 100%;
+        margin-left: -10%;
     }
     
     .para {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: lighter;
     }
     .para3 {
@@ -1008,14 +1024,14 @@ section.services-area-service{
     }
     .fa-chevron-left{
         color: var(--primary-color3); 
-        font-size: 30px; 
+        font-size: 20px; 
         margin-top: 350px;
     }
     .right{
         color: var(--primary-color3); 
-        margin-left: 230px; 
-        font-size: 30px; 
-        margin-top: 350px;
+        margin-left:0px; 
+        font-size: 20px; 
+        margin-top: 50px;
     }
     
 
@@ -1027,9 +1043,9 @@ section.services-area-service{
 
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
+@media (max-width: 768px) {  }
 
 
 
 /*Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (max-width: 992px) {  }
