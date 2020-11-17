@@ -337,6 +337,10 @@ hr {
     color: var(--primary-color2);
 }
 
+.client-say{
+    margin-left: 320px;
+}
+
 .para {
     font-size: 30px;
     font-weight: lighter;
@@ -553,6 +557,41 @@ section.services-area-service{
 .res-header{
     margin-left:7.8%;
 }
+.close2 {
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .close2:hover {
+    color: var(--primary-color);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
 
@@ -1043,7 +1082,20 @@ section.services-area-service{
         text-decoration: none;
         color: #333;
       }
+      .close2 {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        transition: all 200ms;
+        font-size: 40px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      }
       .popup .close:hover {
+        color: var(--primary-color);
+      }
+      .close2:hover {
         color: var(--primary-color);
       }
       .popup .content {
@@ -1081,6 +1133,14 @@ section.services-area-service{
         font-size: 35px;
         color: var(--primary-color2); 
         margin-bottom: 4%;
+    }
+    .client-say{
+        margin-left: 50px;
+        font-size: 24px;
+    }
+    .slider{
+        margin-top: -120px;
+        margin-left: -4px;
     }
   }
 
