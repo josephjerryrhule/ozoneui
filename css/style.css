@@ -363,6 +363,31 @@ hr {
     background:var(--primary-color3);
     padding-bottom: 30px;
 }
+.fa-shopping-bag{
+    margin-left: 125px; 
+    font-size: 35px;
+    color: var(--primary-color2); 
+    margin-bottom: 4%;
+}
+.fa-fire{
+    margin-left: 125px; 
+    font-size: 35px;
+    color: var(--primary-color2); 
+    margin-bottom: 4%;
+}
+.fa-gem{
+    margin-left:125px; 
+    width:10%;
+    height: 10%; 
+    color: var(--primary-color2); 
+    margin-bottom: 4%;
+}
+.pack{
+    margin-left: 150px;
+}
+.pack1{
+    margin-left: -300px;
+}
 footer {
     width: 100%;
     display: block;
@@ -635,6 +660,13 @@ section.services-area-service{
         background: var(--primary-color3);
         color: #f8f9fa;
     }
+
+    .pack{
+        margin-left: 0px;
+    }
+    .pack1{
+        margin-left: 0px;
+    }
     
     .bus-btn {
         float: none;
@@ -677,7 +709,7 @@ section.services-area-service{
         border: 0px solid #fff;
         border-radius: 5px;
         padding: 10px;
-        width: 25%;
+        width: 29%;
         transition: all .5s;
         color: #f8f9fa;
         background: var(--primary-color2);
@@ -901,7 +933,7 @@ section.services-area-service{
         padding: 0.3rem;
     }
     .about-para{
-        font-size: 23px;
+        font-size: 15px;
         color: #6f6f6f;
     }
     
@@ -935,6 +967,7 @@ section.services-area-service{
     }
     .step-title{
         font-weight: 700;
+        width: 100%;
     }
     section.services-area-service{
         background: var(--primary-color);
@@ -978,6 +1011,7 @@ section.services-area-service{
         transition: opacity 500ms;
         visibility: hidden;
         opacity: 0;
+        overflow-y: scroll;
       }
       .overlay:target {
         visibility: visible;
@@ -1001,10 +1035,10 @@ section.services-area-service{
       }
       .popup .close {
         position: absolute;
-        top: 20px;
+        top: 2px;
         right: 30px;
         transition: all 200ms;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         text-decoration: none;
         color: #333;
@@ -1030,7 +1064,24 @@ section.services-area-service{
     .data-right{
         visibility: hidden;
     }
-
+    .fa-shopping-bag{
+        margin-left: 190px; 
+        font-size: 35px;
+        color: var(--primary-color2); 
+        margin-bottom: 4%;
+    }
+    .fa-fire{
+        margin-left: 190px; 
+        font-size: 35px;
+        color: var(--primary-color2); 
+        margin-bottom: 4%;
+    }
+    .fa-gem{
+        margin-left:190px; 
+        font-size: 35px;
+        color: var(--primary-color2); 
+        margin-bottom: 4%;
+    }
   }
 
 
