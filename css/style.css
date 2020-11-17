@@ -1168,10 +1168,13 @@ section.services-area-service{
         margin-top: 350px;
     }
     .res-md{
-        font-size: 30px;
+        margin-left: 2%;
+        width: 100%;
+        font-size: 24px;
     }
     .res-md-p{
-        width: 100%;
+        margin-left: -15%;
+        width: 150%;
         font-size: 15px;
     }
 
@@ -1185,6 +1188,46 @@ section.services-area-service{
         background: var(--primary-color3);
         color: #f8f9fa;
     }
+    .unlimited-data-sec {
+        padding: 120px 120px;
+        float: none;
+    }
+    .text-title {
+        font-family: var(--Poppins-bold);
+        font-size: 59px;
+        font-weight: 400;
+        width: 1024px;
+    }
+    
+.para {
+    width: 350%;
+    font-size: 30px;
+    font-weight: lighter;
+    }
+
+.header-btn1 {
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150%;
+    margin-left: -5%;
+    transition: all .5s;
+    color: var(--primary-color2);
+    background: #fff;
+}
+
+.data-para {
+    margin-left: -25%;
+    font-size: 25px;
+    color: var(--primary-color2);
+}
+
+.bus-btn {
+    float: right;
+    margin-top: -7.3%;
+}
+
+
 }
 
 
