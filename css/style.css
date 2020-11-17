@@ -1623,6 +1623,7 @@ section.services-area-service{
     }
     
     .data-para {
+        margin-left: 5%;
         color: var(--primary-color2);
     }
     
