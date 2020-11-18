@@ -138,6 +138,12 @@ header {
     margin-top: -4%;
 }
 
+.button-float{
+    color: var(--primary-color3); 
+    font-size: 30px; 
+    margin-top: 90px;
+  }
+
 .header-btn1 {
     border: 0px solid #fff;
     border-radius: 5px;
@@ -1324,6 +1330,56 @@ section.services-area-service{
     padding: 0rem;
 }
 
+.button-float{
+    color: var(--primary-color3); 
+    font-size: 30px; 
+    margin-top: 90px;
+  }
+  .data-right{
+    color: var(--primary-color3); 
+    margin-left: 120px; 
+    font-size: 30px; 
+    margin-top: 90px;
+  }
+
+  .header-btn4 {
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 70px;
+    transition: all .5s;
+    color: #f8f9fa;
+    background: var(--primary-color3);
+}
+.para3 {
+    font-size: 15px;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.card{
+    margin-left: -50%;
+    width: 200%;
+}
+
+.fa-gem{
+    margin-left:135px; 
+   font-size:50px;
+    color: var(--primary-color2); 
+    margin-bottom: 4%;
+}
+
+.header-btn8 {
+    border: 0px solid var(--primary-color2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    transition: all .5s;
+    background: var(--primary-color2);
+    color: #f8f9fa;
+}
+
 }
 
 
@@ -1486,6 +1542,7 @@ section.services-area-service{
         border: 0px solid #fff;
         border-radius: 5px;
         padding: 10px;
+        margin-left: 172px;
         width: 25%;
         transition: all .5s;
         color: #f8f9fa;
@@ -1869,11 +1926,13 @@ section.services-area-service{
     .cards-border{
         border: 1px solid var(--primary-color3);
     }
-    .fa-chevron-left{
+    i.button-float{
         color: var(--primary-color3); 
         font-size: 30px; 
-        margin-top: 350px;
-    }
+        margin-top: 90px;
+      }
+
+
     .right{
         color: var(--primary-color3); 
         margin-left: 230px; 
@@ -1904,6 +1963,16 @@ section.services-area-service{
         font-size: 30px; 
         margin-top: 90px;
       }
+
+      .data-right{
+        color: var(--primary-color3); 
+        margin-left: 230px; 
+        font-size: 30px; 
+        margin-top: 90px;
+      }
+      .card{
+        width: 100%;
+    }
     
 
  }
